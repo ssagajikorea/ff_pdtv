@@ -37,6 +37,9 @@ class ModuleMain(PluginModuleBase):
             "token_refresh_hour": "5",
             "token": "",
             "token_time": "",
+            "use_proxy": "False",
+            "use_proxy2": "False",
+            "proxy_url": "",
         }
         self.web_list_model = ModelPanliveItem
 
